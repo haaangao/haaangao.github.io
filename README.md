@@ -1,2 +1,5 @@
 # Han-Portfolio
-Han's Portfolio Website
+
+Welcome to Han's Portfolio Website.
+
+Start exploring some fun design projects here!
