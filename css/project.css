@@ -409,6 +409,12 @@ h3 {
     margin-top: 10px;
 }
 
+#paper_testing {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 #prototype iframe {
     transform: scale(0.5);
     margin-left: auto;
