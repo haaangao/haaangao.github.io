@@ -542,13 +542,23 @@ h3 {
 }
 
 .inline_link {
-    text-decoration:underline;
+    text-decoration: underline;
     color:#F5846F;
     font-weight:500;
 }
 
 .inline_link:hover {
     color: rgb(204, 94, 74);
+}
+
+.people_link {
+    text-decoration: underline;
+    color: #728BA4;
+    font-weight:200;
+}
+
+.people_link:hover {
+    color: rgb(82, 105, 128);
 }
 
 /* #proj_nav_left {
