@@ -120,7 +120,7 @@ html {
 	display: grid;
 	height: 100%;
 	grid-template-columns: repeat(6, 80px);
-	grid-template-rows: repeat(14, 50px);
+	grid-template-rows: repeat(15, 50px);
 }
 
 .circle_s img{
@@ -188,11 +188,15 @@ html {
 	position: relative;
 }
 
+#circle_5 .caption-text {
+	top: 60px;
+}
+
 #circle_6 {
 	grid-column: 3/6;
 	grid-row: 12/14;
-	padding-top: 10%;
-	padding-left: 25%;
+	padding-top: 18%; 
+	padding-left: 27%;
 }
 
 .circle_l .dummy{

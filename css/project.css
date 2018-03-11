@@ -1,5 +1,9 @@
 /* * {-webkit-font-smoothing: antialiased;} */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
@@ -272,25 +276,25 @@ footer img{
 #comp_analysis_wrapper {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .comp_analysis {
     height: 160px;
-    width: 22%;
+    width: 25%;
     padding-top: 20px;
     float: left;
-    padding: 1.5%;
+    padding: 1%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .comp_analysis img{
-    width: auto;   
-    text-align: center;
     height: 65%;
-    display: inline-block;
-    vertical-align: bottom;
+    display: block;
+    /* vertical-align: bottom; */
     padding: 3px;
+    margin: 0 auto;
 }
 
 .comp_analysis p{
@@ -560,29 +564,108 @@ h3 {
     color: rgb(82, 105, 128);
 }
 
-/* #proj_nav_left {
-    width: 300px;
-    display: block;
-    margin: 5px;
-    float: left;
+.default_pic {
+    width: 100%;
+    padding-bottom: 1rem;
 }
 
-#proj_nav_left svg {
-    width: 40px;
-    float: left;
+#geriatric_interview {
+    width: 90%;
     display: block;
+    margin: 0 auto;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
 }
 
-#proj_nav_right {
-    width: 300px;
-    display: block;
-    margin: 5px;
-    float: right;
+.geriatric_personas {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
-#proj_nav_right svg {
-    width: 40px;
-    float: right;
-    display: block;
+.img_slides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    transition: 0.6s ease;
+    top: 50%;
+    margin-top: -1rem;
+    padding: 0.5rem;
+}
+
+.prev img, .next img {
+    width: 2rem;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 0.5rem;
+}
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 } */
 
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.7s;
+    animation-name: fade;
+    animation-duration: 1.7s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+#geriatric_conceptcards {
+    text-align: center;
+}
+
+.concept_card {
+    width: 13.7%;
+    vertical-align: top;
+    margin-bottom: .5rem;
+}
+
+#geriatric_chart {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+#geriatric_weightbar {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+}
