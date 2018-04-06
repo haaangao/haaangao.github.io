@@ -357,6 +357,7 @@ h3 {
     width: 95%;
     grid-column: 1/1;
     grid-row: 1/1;
+    overflow: hidden;
 }
 
 #groofs_pic_desc_1 {

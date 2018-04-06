@@ -44,7 +44,6 @@ html {
 	width: 35%;
 	height: 100%;
 	margin: 10% 0 0 12%;
-
 }
 
 #intrologo_container img {
@@ -120,7 +119,30 @@ html {
 	display: grid;
 	height: 100%;
 	grid-template-columns: repeat(6, 80px);
-	grid-template-rows: repeat(15, 50px);
+	grid-template-rows: repeat(16, 50px);
+}
+
+@media only screen and (max-width: 600px) {
+    .intro_container {
+		width: 70%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20%;
+		height: 100vh;
+	}
+
+	.proj_grid {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.footer {
+		position: relative;
+		margin: 0 auto;
+
+	}
 }
 
 .circle_s img{
@@ -371,13 +393,16 @@ html {
 } */
 
 
-.footer{
+.footer {
 	flex-shrink: 0;
 	position: absolute;
 	font-size: 14px;
 	bottom: 0;
 	width: 100%;
-	padding: 20px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 	color: #a6a6a6;
 	/* background-color: antiquewhite; */
 	text-align: center;
