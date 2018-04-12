@@ -445,9 +445,15 @@ h3 {
     display: block;
 }
 
+#fpl_problems_wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .fpl_problems {
     height: 160px;
-    width: 30%;
+    width: 33%;
     padding-top: 20px;
     float: left;
     padding: 1.6%;
@@ -466,7 +472,7 @@ h3 {
 
 .fpl_problems p{
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8rem;
     line-height: 1.5;
     color: #a6a6a6;
     margin: 10px;
