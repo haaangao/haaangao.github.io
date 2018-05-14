@@ -699,3 +699,12 @@ h3 {
     margin: 0 auto;
     margin-top: 6rem;
 }
+
+.equilibar_mobileapp {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
