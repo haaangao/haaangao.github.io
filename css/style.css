@@ -44,6 +44,7 @@ html {
 	width: 35%;
 	height: 100%;
 	margin: 10% 0 0 12%;
+	position: fixed;
 }
 
 #intrologo_container img {
