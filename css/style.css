@@ -209,7 +209,8 @@ html {
 	position: relative;
 }
 
-#circle_5 .caption-text {
+#circle_5 .caption-text,
+#circle_4 .caption-text {
 	top: 60px;
 }
 
