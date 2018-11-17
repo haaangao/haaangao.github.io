@@ -102,46 +102,46 @@ a {
     margin: 0;
 }
 
-.socialmedia {
+.socialmedia_copy {
     position: fixed;
     margin-left: 10%;
     bottom: 2rem;
 }
 
-.socialmedia a {
+.socialmedia_copy a {
 	text-decoration: none;
 	outline: none;
 	border: 0;
 }
 
-.socialmedia a svg {
+.socialmedia_copy a svg {
 	fill: #a6a6a9;
 	stroke: #000;
 	stroke-width: 10;
 	stroke-opacity: 0;
 }
 
-.socialmedia a svg #gmail:hover {
+.socialmedia_copy a svg #gmail:hover {
 	fill: #D14836;
 }
 
-.socialmedia a svg #linkedin:hover {
+.socialmedia_copy a svg #linkedin:hover {
 	fill: #0077B5;
 }
 
-.socialmedia a svg #github:hover {
+.socialmedia_copy a svg #github:hover {
 	fill: #181717;
 	stroke-width: 10;
 }
 
-.socialmedia a svg #instagram:hover {
+.socialmedia_copy a svg #instagram:hover {
 	fill: #E4405F;
 	stroke-width: 10;
 }
 
 
-.socialmedia a svg path,
-.socialmedia a svg path:after,
-.socialmedia a svg path:before {
+.socialmedia_copy a svg path,
+.socialmedia_copy a svg path:after,
+.socialmedia_copy a svg path:before {
     transition: all .3s;
 }
