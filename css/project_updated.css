@@ -38,10 +38,11 @@ a {
 
 .about_wrapper {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+    line-height: 150%;
     color: #969696;
     width: 30%;
-    top: 20%;
+    top: 28%;
     left: 10%;
     float: left;
     position: fixed;
