@@ -42,7 +42,7 @@ a {
     line-height: 150%;
     color: #969696;
     width: 30%;
-    top: 28%;
+    top: 25%;
     left: 10%;
     float: left;
     position: fixed;
@@ -100,4 +100,48 @@ a {
     max-width: 50%;
     top: 0;
     margin: 0;
+}
+
+.socialmedia {
+    position: fixed;
+    margin-left: 10%;
+    bottom: 2rem;
+}
+
+.socialmedia a {
+	text-decoration: none;
+	outline: none;
+	border: 0;
+}
+
+.socialmedia a svg {
+	fill: #a6a6a9;
+	stroke: #000;
+	stroke-width: 10;
+	stroke-opacity: 0;
+}
+
+.socialmedia a svg #gmail:hover {
+	fill: #D14836;
+}
+
+.socialmedia a svg #linkedin:hover {
+	fill: #0077B5;
+}
+
+.socialmedia a svg #github:hover {
+	fill: #181717;
+	stroke-width: 10;
+}
+
+.socialmedia a svg #instagram:hover {
+	fill: #E4405F;
+	stroke-width: 10;
+}
+
+
+.socialmedia a svg path,
+.socialmedia a svg path:after,
+.socialmedia a svg path:before {
+    transition: all .3s;
 }

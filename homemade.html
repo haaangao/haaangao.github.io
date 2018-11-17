@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Project - Homemade Genius</title>
     <link rel="stylesheet" type="text/css" href="css/project.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/project_updated.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:700|Montserrat" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animsition.css">
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -59,10 +60,10 @@
     </script>
     <script type="text/javascript">
         function mouseOverImage() {
-            document.getElementById("logo_home").src = "img/my_logo.png";
+            document.getElementById("logo_home").src = "img/mylogo_color.svg";
         }
         function mouseOutImage() {
-            document.getElementById("logo_home").src = "img/my_logo_gray.png";
+            document.getElementById("logo_home").src = "img/mylogo_gray.svg";
         }
     </script>
     <!-- Mail Encryption -->
@@ -91,7 +92,7 @@
         // --> 
     </script>
     <!-- animsition -->
-	<script>
+	<!-- <script>
         $(document).ready(function() {
             $(".animsition").animsition({
                 inClass: 'fade-in',
@@ -116,10 +117,11 @@
                 transition: function(url){ window.location.href = url; }
             });
         });
-    </script>
+    </script> -->
 </head>
-<body class="animsition">
-    <nav class="sidenav">
+
+<body>
+    <nav class="sidenav fade-in">
         <ul>
             <li><a href="#identify">IDENTIFYING THE PROBLEM</a></li>
             <li><a href="#meet">MEETING SOME HOMESCHOOL PARENTS</a></li>
@@ -128,9 +130,9 @@
         </ul>
     </nav>
 
-    <a href="index.html"><img id="logo_home" src="img/my_logo_gray.png" alt="back to home" onmouseover = "mouseOverImage()"  onmouseout="mouseOutImage()"/></a>
+    <a href="index.html"><img id="logo_home" src="img/mylogo_gray.svg" alt="back to home" onmouseover = "mouseOverImage()"  onmouseout="mouseOutImage()"/></a>
     
-    <section class="proj_wrapper">
+    <section class="proj_wrapper fade-in">
         <div class="proj_header" >
             <h1>Homemade Genius</h1>
             <p>Improving Homeschool Learning Experience</p>
@@ -155,7 +157,7 @@
             <div id="identify" class="container">
                 <h2>Identifying the Problem</h2>
                 <div>
-                    The number of homeschoolers has increased <span style="color:#F5846F; font-weight:600">53%</span> in the past ten years. 
+                    The number of homeschoolers has increased <span style="color:orange; font-weight:600">53%</span> in the past ten years. 
                     As of 2016, there were about 2.3 million homeschoolers in the United States (Ray, 2015).
                     According to our preliminary research, we found that most studies casted doubts on the following issues:
                     <ul>
@@ -171,7 +173,7 @@
                 <h2>Meeting Some Homeschool Parents</h2>
                 <p>
                     In our interviews with homeschool parents and former homeschool kids, we asked questions regarding their motivations for choosing homeschool education, approaches for finding homeschool learning resources, communications between homeschool parents and their kids, and any frustrations and concerns throughout their homeschooling experience.
-                    Questions are phrased <span style="color:#F5846F; font-weight:600">open-ended</span> and <span style="color:#F5846F; font-weight:600">non-judgmental</span>, but for the purpose of getting <span style="color:#F5846F; font-weight:600">concret response</span>.
+                    Questions are phrased <span style="color:orange; font-weight:600">open-ended</span> and <span style="color:orange; font-weight:600">non-judgmental</span>, but for the purpose of getting <span style="color:orange; font-weight:600">concret response</span>.
 
                 </p>
                 <p>Meet some homeschool parents we've talked to and see what they say:</p>
@@ -186,7 +188,7 @@
                 <p>
                     After completing each interview, our team went over key findings that were revealed during interviews as a group, using notes and recordings as points of discussion.
                     Individual pieces of data, those that captured single facts about homeschooling education, 
-                    were recorded as discrete affinity notes and then incorporated into an integrated <span style="color:#F5846F; font-weight:600">affinity wall</span>.
+                    were recorded as discrete affinity notes and then incorporated into an integrated <span style="color:orange; font-weight:600">affinity wall</span>.
                 </p>
                 
                 <a href="img/hg_affinitywall.png" data-lightbox="hg_affinitywall" data-title="Homemade Genius Affinity Wall"><img src="img/hg_affinitywall.png" alt="CHI Affinity Wall" width="100%"></a>
@@ -195,9 +197,9 @@
                 <div>
                     We were able to categorize the affinity notes into three main clusters according to theme or sentiment. Interestingly, the concerns we derived from secondary research were all proven inaccurate but, instead, many of the pain points included:
                     <ul>
-                        <li><span style="color:#F5846F;font-weight:600">Community</span> plays an important role for homeschool families, in which homeschool parents can share resources and suggestions with each other. But the community is often too small that puts many constraints.</li>
-                        <li><span style="color:#F5846F;font-weight:600">Finding learning resources</span> is problematic for some homeschoolers for that it is often time-consuming to locate the right fits.</li>
-                        <li>The current way for homeschoolers to <span style="color:#F5846F;font-weight:600">find kids that share similar interests</span> is through Facebook posting or in-person communications in the local homeschool community, which could be constrained by the geographical boundary and is not particularly efficient.</li>
+                        <li><span style="color:orange;font-weight:600">Community</span> plays an important role for homeschool families, in which homeschool parents can share resources and suggestions with each other. But the community is often too small that puts many constraints.</li>
+                        <li><span style="color:orange;font-weight:600">Finding learning resources</span> is problematic for some homeschoolers for that it is often time-consuming to locate the right fits.</li>
+                        <li>The current way for homeschoolers to <span style="color:orange;font-weight:600">find kids that share similar interests</span> is through Facebook posting or in-person communications in the local homeschool community, which could be constrained by the geographical boundary and is not particularly efficient.</li>
                     </ul>
                 </div>
             </div>
@@ -205,7 +207,7 @@
 
             <div id="design" class="container">
                 <h2>Designing a Solution</h2>
-                <p>After our interviews with homeschoolers and subsequent analysis, we brainstormed potential solutions together and proposed <span style="color:#F5846F; font-weight:600">Homemade Genius</span>, an integrated <span style="color:#F5846F; font-weight:600">online homeschooling community</span> for finding learning resources that best fit, planning and sharing courses, keeping detailed learning record, and connecting with people with similar interests, etc. </p>
+                <p>After our interviews with homeschoolers and subsequent analysis, we brainstormed potential solutions together and proposed <span style="color:orange; font-weight:600">Homemade Genius</span>, an integrated <span style="color:orange; font-weight:600">online homeschooling community</span> for finding learning resources that best fit, planning and sharing courses, keeping detailed learning record, and connecting with people with similar interests, etc. </p>
                 <div id="hg_brainstorm">
                     <a href="img/hg_brainstorm.png" data-lightbox="hg_brainstorm" data-title="Homemade Genius Brainstorming Solutions"><img src="img/hg_brainstorm.png" alt="Brainstorming Solutions" width="100%"></a>
                     <p class="img_caption">[Click for larger view]</p>
@@ -213,9 +215,9 @@
 
                 <p>Bringing our ideas to some homeschoolers and information professionals, we received many positive feedback on the general concepts as well as constructive suggestions for what the system enables. Specifically,
                     <ul>
-                        <li><span style="color:#F5846F; font-weight:600">privacy</span> is a top concern for homeschool parents. Designing a system that carefully protect privacy of the kids could be essential,</li>
-                        <li>besides hoping to find more learning resources, homeschool parents also expressed expectations to see <span style="color:#F5846F; font-weight:600">ratings</span> from past resource users as critical reference, and</li>
-                        <li>the system should not only function as an information hub, but also allow users to <span style="color:#F5846F; font-weight:600">actively interact</span> with each other.</li>
+                        <li><span style="color:orange; font-weight:600">privacy</span> is a top concern for homeschool parents. Designing a system that carefully protect privacy of the kids could be essential,</li>
+                        <li>besides hoping to find more learning resources, homeschool parents also expressed expectations to see <span style="color:orange; font-weight:600">ratings</span> from past resource users as critical reference, and</li>
+                        <li>the system should not only function as an information hub, but also allow users to <span style="color:orange; font-weight:600">actively interact</span> with each other.</li>
                     </ul>
                 </p>
 
@@ -240,10 +242,10 @@
                 <div class="hg_pic_desc"><span style="color:#595287;font-weight:700">MORE FEATURES...</span><br>Check out the video for an interactive hi-fi prototype.</div>
             </div>
 
-            <p>This project was first initiated as a part of the <a href="https://chi2018.acm.org/" target="_blank" class="inline_link">2018 ACM CHI Conference</a> on Human Factors in Computing Systems, featuring the theme of <em>engage</em>. We really hope Homemade Genius can help homeschoolers best leverage the benefit of an active online community, eventually creating a home learning environment where information can be easily managed, tracked, and shared.
+            <p>This project was first initiated as a part of the <a href="https://chi2018.acm.org/" target="_blank" class="link_a">2018 ACM CHI Conference</a> on Human Factors in Computing Systems, featuring the theme of <em>engage</em>. We really hope Homemade Genius can help homeschoolers best leverage the benefit of an active online community, eventually creating a home learning environment where information can be easily managed, tracked, and shared.
             </p>
 
-            <p>We are still actively testing our designs and getting feeback from target users and experts. Please reach out to us (<a href="mailto:chi-the22@umich.edu" class="inline_link">chi-the22@umich.edu</a>) if you are interested in learning more about the project or helping us with back-end implementation!</p>
+            <p>We are still actively testing our designs and getting feeback from target users and experts. Please reach out to us (<a href="mailto:chi-the22@umich.edu" class="link_a">chi-the22@umich.edu</a>) if you are interested in learning more about the project or helping us with back-end implementation!</p>
 
         </div>
 
@@ -280,7 +282,7 @@
         <div>Design & Code by Han Gao © 2018</div>
     </footer>
 
-    <script src="js/animsition.js"></script>
+    <script src="js/bundle.js"></script>
     <script src="js/backtotop.js"></script>
     <script src="js/zenscroll-min.js"></script>
     <script src="js/lightbox.min.js"></script>

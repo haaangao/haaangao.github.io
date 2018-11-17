@@ -44,7 +44,7 @@ nav ul li a:after {
     position: fixed;
     width: 35px;
     height: 38px;
-    top: 35px;
+    top: 50px;
     left: 50px;
     cursor: pointer;
 }
@@ -66,6 +66,7 @@ nav ul li a:after {
 }
 
 .proj_header h1 {
+    font-family: 'Raleway', sans-serif;
 	font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -564,7 +565,7 @@ h3 {
 }
 
 .people_link {
-    text-decoration: underline;
+    text-decoration: none;
     color: #728BA4;
 }
 

@@ -101,6 +101,7 @@ a {
 
 .project_wrapper {
     position: absolute;
+    display: block;
     top: 27%;
     left: 50%;
     right: 10%;
@@ -110,5 +111,50 @@ a {
 .project_wrapper img {
     position: relative;
     width: 90%;
-    padding-bottom: 40%;
+}
+
+.project_desc {
+    position: relative;
+    /* top: 10%; */
+    padding-bottom: 35%;
+    padding-left: 16%;
+}
+
+.project_title {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+    display: block;
+    text-transform: uppercase;
+    
+}
+
+.project_title:before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 2rem;
+    width: 3rem;
+    height: 3px;
+    background: #000;
+    content: '';
+}
+
+.project_type {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    float: right;
+    color: #a6a6a6;
+    font-size: 1rem;
+    padding: 3rem;
+    font-family: 'Montserrat', sans-serif;
 }
