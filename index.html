@@ -6,6 +6,9 @@
 	<title>Han's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style_updated.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700|Montserrat" rel="stylesheet">
+<!-- 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js"></script> -->
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
@@ -23,36 +26,36 @@
     <!-- scrolling nav-->
     <script type="text/javascript">
         $(document).ready(function(){
-            // $sections includes all of the container divs that relate to menu items.
-            var $sections = $('.container');
+            // $sections_nav includes all of the container divs that relate to nav items.
+            var $sections_nav = $('.container_nav');
             
             // The user scrolls
             $(window).scroll(function(){
             
-                // currentScroll is the number of pixels the window has been scrolled
-                var currentScroll = $(this).scrollTop();
+                // currentScroll_nav is the number of pixels the window has been scrolled
+                var currentScroll_nav = $(this).scrollTop();
                 
-                // $currentSection is somewhere to place the section we must be looking at
-                var $currentSection
+                // $currentSection_nav is somewhere to place the section we must be looking at
+                var $currentSection_nav
                 
                 // We check the position of each of the divs compared to the windows scroll positon
-                $sections.each(function(){
-                    // divPosition is the position down the page in px of the current section we are testing      
-                    var divPosition = $(this).offset().top;
+                $sections_nav.each(function(){
+                    // divPosition_nav is the position down the page in px of the current section we are testing      
+                    var divPosition_nav = $(this).offset().top;
                     
                     // If the divPosition is less the the currentScroll position the div we are testing has moved above the window edge.
                     // the -1 is so that it includes the div 1px before the div leave the top of the window.
-                    if( divPosition - 0.3* $(window).height() < currentScroll ){
+                    if( divPosition_nav - 0.3*$(window).height() < currentScroll_nav ){
                         // We have either read the section or are currently reading the section so we'll call it our current section
-                        $currentSection = $(this);
+                        $currentSection_nav = $(this);
                     
                     // If the next div has also been read or we are currently reading it we will overwrite this value again. This will leave us with the LAST div that passed.
                     }
                     
                     // This is the bit of code that uses the currentSection as its source of ID
-                    var id = $currentSection.attr('id');
-                    $('a').removeClass('active');
-                    $("[href=#"+id+"]").addClass('active');
+                    var id_nav = $currentSection_nav.attr('id');
+                    $('a').removeClass('highlight');
+                    $("[href=#"+id_nav+"]").addClass('highlight');
                     
                 })
         
@@ -63,12 +66,12 @@
 
 <body>
     <div class="content_wrapper">
-        <div class="indexnav fade-in">
+        <div class="indexnav fade-in" id="menu">
             <ul>
-                <li><a href="#sra"></a></li>
-                <li><a href="#homemade"></a></li>
-                <li><a href="#geriatric"></a></li>
-                <li><a href="#groofs"></a></li>
+                <li data-menuanchor="sra"><a href="#sra"></a></li>
+                <li data-menuanchor="homemade"><a href="#homemade"></a></li>
+                <li data-menuanchor="geriatric"><a href="#geriatric"></a></li>
+                <li data-menuanchor="groofs"><a href="#groofs"></a></li>
             </ul>
         </div>
     
@@ -92,12 +95,12 @@
         </div>
     
     
-        <section class="project_wrapper">
-            <div id="front" class="container">
+        <div class="project_wrapper" id="fullpage">
+            <section id="front" class="container_nav">
                 <img class="fade-in" style="padding-bottom:40%;" src="img/index_illustration.svg" alt="designer life">
-            </div>
+            </section>
             
-            <div id="sra" class="container">
+            <section id="sra" class="container_nav">
                 <a style="color:#000" href="sra.html">
                     <div>
                         <img class="fade-in" style="width:82%;padding-left:2%" src="img/sra_index.svg" alt="digital health product">
@@ -107,9 +110,9 @@
                         <p class="project_type">B2B Digital Health Innovation</p>
                     </div>
                 </a>
-            </div>
+            </section>
             
-            <div id="homemade" class="container">
+            <section id="homemade" class="container_nav">
                 <a style="color:#000" href="homemade.html">
                     <div>
                         <img class="fade-in" style="width:75%;padding-left:6%" src="img/hg_index.png" alt="homemade genius">
@@ -119,9 +122,9 @@
                         <p class="project_type">Improve Homeschool Learning Experience</p> 
                     </div>
                 </a>
-            </div>
+            </section>
     
-            <div id="geriatric" class="container">
+            <section id="geriatric" class="container_nav">
                 <a style="color:#000" href="geriatric.html">
                     <div>
                         <img class="fade-in" style="width:95%;" src="img/ipd_index2.svg" alt="geriatric health">
@@ -131,22 +134,22 @@
                         <p class="project_type">Geriatric Health Maintenance</p> 
                     </div>
                 </a>
-            </div>
+            </section>
     
-            <div id="groofs" class="container">
+            <section id="groofs" class="container_nav">
                 <a style="color:#000" href="groofs.html">
                     <div>
-                        <img class="fade-in" style="width:35%;padding-left:20%;padding-top:10%;padding-bottom:2%;" src="img/groof_index3.png" alt="green roof">
+                        <img class="fade-in" style="width:35% !important;padding-left:20%;padding-top:10%;padding-bottom:2%;" src="img/groof_index3.png" alt="green roof">
                     </div>
                     <div class="project_desc fade-in">
                         <p class="project_title">GRoofs</p>
                         <p class="project_type">Eat Local. Live Green.</p> 
                     </div>
                 </a>
-            </div>
+            </section>
 
             <div class="footer fade-in">Design & Code by Han Gao © 2018</div>
-        </section>
+        </div>
         
     </div>
     
