@@ -145,7 +145,7 @@ h2{
 .proj_content div ul li::before{
     content: "\25E6";
     padding-right: 15px;
-    color: #F5846F;
+    color: orange;
 }
 
 #hg_parents {
@@ -707,4 +707,89 @@ h3 {
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.mcompass_flow {
+    width: 100%;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+
+}
+
+#mcompass_stakeholdermap {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 0.6rem;
+    padding-bottom: 1.5rem;
+    /* margin-bottom: 2rem; */
+}
+
+#mcompass_interview {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+#mcompass_doWrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.mcompass_do {
+    width: 49%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.mcompass_do img {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mcompass_doText {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.proj_content iframe {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.mcompass_personas {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    /* margin-bottom: 1rem; */
+}
+
+#mcompass_timeline {
+    width: 100%;
+    display: block;
+}
+
+#mcompass_prototyping h3{
+    margin-top: 2rem;
+}
+
+.mcompass_iteration {
+    width: 80%;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+#mcompass_prototyping p{
+    width: 88%;
 }
