@@ -117,19 +117,20 @@ a {
     font-size: 5.5vw;
     font-weight: 700;
     letter-spacing: -2px;
+    width: 7ch;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     animation:
-      typing 2.5s steps(30, end),
-      blink-caret .7s step-end infinite;
+      typing 2s steps(40, end),
+      blink-caret 1s step-end infinite;
     animation-delay: 1s;
 }
   
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 80% }
   }
   
   /* The typewriter cursor effect */
@@ -225,4 +226,50 @@ a {
     bottom: .55%;
     position: absolute;
     font-size: 1vw;
+}
+
+.greeting_wrapper .socialmedia_copy {
+    position: fixed;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+}
+
+.greeting_wrapper .socialmedia_copy a {
+	text-decoration: none;
+	outline: none;
+    border: 0;
+    margin-right: 0.5rem;
+}
+
+.greeting_wrapper .socialmedia_copy a svg {
+	fill: #a6a6a9;
+	stroke: #000;
+	stroke-width: 20;
+    stroke-opacity: 0;
+    width: 2.2rem;
+}
+
+.greeting_wrapper .socialmedia_copy a svg #gmail:hover {
+	fill: #D14836;
+}
+
+.greeting_wrapper .socialmedia_copy a svg #linkedin:hover {
+	fill: #0077B5;
+}
+
+.greeting_wrapper .socialmedia_copy a svg #github:hover {
+	fill: #181717;
+	stroke-width: 10;
+}
+
+.greeting_wrapper .socialmedia_copy a svg #instagram:hover {
+	fill: #E4405F;
+	stroke-width: 10;
+}
+
+
+.greeting_wrapper .socialmedia_copy a svg path,
+.greeting_wrapper .socialmedia_copy a svg path:after,
+.greeting_wrapper .socialmedia_copy a svg path:before {
+    transition: all .3s;
 }

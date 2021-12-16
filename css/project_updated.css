@@ -102,47 +102,47 @@ a {
     margin: 0;
 }
 
-.socialmedia_copy {
+.greeting_wrapper .socialmedia_copy {
     position: fixed;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     bottom: 3%;
 }
 
-.socialmedia_copy a {
+.greeting_wrapper .socialmedia_copy a {
 	text-decoration: none;
 	outline: none;
-	border: 0;
+    border: 0;
 }
 
-.socialmedia_copy a svg {
+.greeting_wrapper .socialmedia_copy a svg {
 	fill: #a6a6a9;
 	stroke: #000;
 	stroke-width: 10;
 	stroke-opacity: 0;
 }
 
-.socialmedia_copy a svg #gmail:hover {
+.greeting_wrapper .socialmedia_copy a svg #gmail:hover {
 	fill: #D14836;
 }
 
-.socialmedia_copy a svg #linkedin:hover {
+.greeting_wrapper .socialmedia_copy a svg #linkedin:hover {
 	fill: #0077B5;
 }
 
-.socialmedia_copy a svg #github:hover {
+.greeting_wrapper .socialmedia_copy a svg #github:hover {
 	fill: #181717;
 	stroke-width: 10;
 }
 
-.socialmedia_copy a svg #instagram:hover {
+.greeting_wrapper .socialmedia_copy a svg #instagram:hover {
 	fill: #E4405F;
 	stroke-width: 10;
 }
 
 
-.socialmedia_copy a svg path,
-.socialmedia_copy a svg path:after,
-.socialmedia_copy a svg path:before {
+.greeting_wrapper .socialmedia_copy a svg path,
+.greeting_wrapper .socialmedia_copy a svg path:after,
+.greeting_wrapper .socialmedia_copy a svg path:before {
     transition: all .3s;
 }
 
