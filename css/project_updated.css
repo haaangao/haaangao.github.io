@@ -154,3 +154,35 @@ a {
     color: #fff;
     font-size: 1vw;
 }
+
+.proj_overview {
+    background-color: #fafafb;
+    width: 100%;
+    font-size: 0.9vw;
+}
+
+.proj_overview_wrapper {
+    width: 50%;
+    padding-top: 2vh;
+    margin: 0 auto;
+    padding-bottom: 4vh;
+}
+
+.proj_overview_title {
+    color: #AA4B6B;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+
+.latest_proj_header {
+	text-align: center;
+	margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.proj_slide img {
+    width: 68%;
+    display: block;
+    margin: auto;
+    margin-top: 8vh;
+}
