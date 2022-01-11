@@ -163,15 +163,15 @@ a {
 
 .proj_overview_wrapper {
     width: 50%;
-    padding-top: 2vh;
+    padding-top: 20px;
     margin: 0 auto;
-    padding-bottom: 4vh;
+    padding-bottom: 40px;
 }
 
 .proj_overview_title {
     color: #AA4B6B;
     font-weight: 700;
-    margin-top: 2vh;
+    margin-top: 20px;
 }
 
 .latest_proj_header {
@@ -184,5 +184,5 @@ a {
     width: 68%;
     display: block;
     margin: auto;
-    margin-top: 8vh;
+    margin-top: 50px;
 }
