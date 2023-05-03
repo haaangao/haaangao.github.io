@@ -41,6 +41,7 @@ nav ul li a:after {
 }
 
 #logo_home {
+    z-index: 1;
     position: fixed;
     width: 35px;
     height: 38px;

@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile /Users/han/Documents/haaangao.github.io/protected.htpasswd
-Require valid-user

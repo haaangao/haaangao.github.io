@@ -99,7 +99,7 @@ a {
 
 .greeting_wrapper {
     font-family: 'Montserrat', sans-serif;
-    width: 30%;
+    width: 28%;
     top: 28%;
     left: 10%;
     float: left;
@@ -155,7 +155,7 @@ a {
 }
 
 #circle--shape {
-    animation: animateShape 1.6s ease-in-out infinite;
+    animation: animateShape 1.8s ease-in-out infinite;
 }
   
   
